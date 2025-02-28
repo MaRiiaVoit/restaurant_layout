@@ -442,8 +442,8 @@ main {
 /* CHEFS */
 
 .chefs {
-    padding-top: 175px;
-    padding-bottom: 271px;
+    padding-top: 80px;
+    padding-bottom: 180px;
     text-align: center;
 }
 
@@ -453,14 +453,14 @@ main {
     line-height: 200%;
     font-size: 80px;
     color: var(--black);
-    margin-bottom: 135px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
 .chefs-inner {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .chef-item {
@@ -494,3 +494,170 @@ main {
 .chefs-all:hover {
     background-color: var(--green);
 }
+
+/* CLIENTS */
+
+.clients {
+    background-color: rgba(208, 204, 199, 0.1);
+    padding: 71px 0px 99px 0px;
+}
+
+.clients-inner {
+    background-image: url(../images/clients/round.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.clients-title {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    line-height: 200%;
+    font-size: 80px;
+    margin-bottom: 57px;
+    color: var(--black);
+}
+
+.clients-about-img {
+    margin-bottom: 41px;
+}
+
+.clients-about-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 200%;
+    color: var(--black);
+}
+
+.clients-about-text {
+    color: #5C4529;
+    font-size: 20px;
+    line-height: 200%;
+    margin-bottom: 65px;
+}
+
+.clients-about-inner {
+    position: relative;
+    width: 524px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.clients-about-inner p {
+    color: #5C4529;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+#dot1 {
+    position: absolute;
+    top: -45px;
+    left: -44px;
+    transform: rotate(180deg);
+}
+
+#dot2 {
+    position: absolute;
+    bottom: -45px;
+    right: -44px;
+}
+
+/* SCHEDULE */
+
+.schedule {
+    width: 1150px;
+    height: 588px;
+    margin: 238px auto;
+    padding: 60px 30px;
+    text-align: center;
+    background: url('../images/schedule/background.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule h2 {
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    line-height: 200%;
+    font-size: 80px;
+    color: #fff;
+    margin-top: -80px;
+}
+
+.schedule-inner h3 {
+    font-weight: 600;
+    line-height: 200%;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.schedule-inner p {
+    line-height: 200%;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.schedule-padding {
+    padding-left: 170px;
+    padding-bottom: 50px;
+}
+
+.schedule-inner-buttons a:first-of-type {
+    padding: 17px 55px;
+    border-radius: 162px;
+    text-decoration: none;
+    background-color: var(--orange);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 23px;
+    transition: transform .4s ease;
+}
+
+.schedule-inner-buttons a:last-of-type {
+    padding: 17px 55px;
+    border-radius: 162px;
+    text-decoration: none;
+    background-color: #fff;
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 80px;
+    transition: transform .4s ease;
+}
+
+.schedule-inner-buttons a:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* .main-content__buttons a:first-of-type {
+    padding: 17px 62px;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--orange);
+    border-radius: 162px;
+    margin-right: 23px;
+    transition: transform .4s ease;
+    display: inline-block;
+}
+
+.main-content__buttons a:last-of-type {
+    padding: 17px 55px;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--green);
+    border-radius: 162px;
+    margin-right: 23px;
+    transition: transform .4s ease;
+    display: inline-block;
+}
+
+.main-content__buttons a:hover {
+    transform: scale(1.05);
+} */
