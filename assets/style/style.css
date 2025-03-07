@@ -15,6 +15,10 @@ body, html {
 
 * {
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 h1, h2, h3, h4, p {
@@ -583,7 +587,6 @@ main {
     line-height: 200%;
     font-size: 80px;
     color: #fff;
-    margin-top: -80px;
 }
 
 .schedule-inner h3 {
@@ -636,20 +639,89 @@ main {
     transform: scale(1.05);
 }
 
+/* FOOTER */
+
 .footer {
     background-color: var(--black);
-    padding: 149px 74px;
+    padding: 149px 164px 74px 164px;
+    display: grid;
+    grid-template-columns: 1fr 0.6fr 0.6fr 1fr;
+    column-gap: 40px;
 }
 
-.footer-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
-    flex-wrap: wrap;
-    max-width: 1100px;
+.footer-content__item:first-child {
+    max-width: 274px;
 }
 
-.footer-left .footer-middle .footer-right {
-    flex: 1;
-    margin: 20px;
+.footer-content__logo {
+    margin-bottom: 45px;
+}
+
+.copyright {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    text-align: center;
+    align-self: end;
+    display: block;
+    color: #E3E2E0;
+    font-size: 15px;
+    line-height: 200%;
+    margin-top: 93px;
+}
+
+.footer-content__item:first-child {
+    width: 150%;
+}
+
+.footer-content h4 {
+    font-weight: 600;
+    line-height: 200%;
+    font-size: 22px;
+    color: var(--orange);
+    margin-bottom: 25px;
+}
+
+.footer-content li {
+    margin-bottom: 15px;
+    
+}
+
+.footer-content li a {
+    display: block;
+    color: #E3E2E0;
+    font-size: 18px;
+    line-height: 200%;
+    transition: all .40s ease;
+}
+
+.footer-content li a:hover {
+    transform: translateY(-2px) translateX(-5px);
+    color: #fff;
+}
+
+.footer-content p {
+    display: block;
+    color: #E3E2E0;
+    font-size: 18px;
+    line-height: 200%;
+}
+
+.footer-content__p {
+    color: #E3E2E0;
+    font-size: 18px;
+    line-height: 200%;
+    margin-bottom: 40px;
+}
+
+.social-icons a {
+    display: inline-block;
+    font-size: 25px;
+    color: #DDD5D5;
+    margin-left: 22px;
+    transition: all .40s ease;
+}
+
+.social-icons a:hover {
+    transform: translateY(-5px);
+    color: #fff;
 }
